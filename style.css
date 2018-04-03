@@ -75,7 +75,22 @@ html, body {
     margin-bottom: 1rem;
 }
 
+.fa-angellist {
+    color: #e54d26;
+}
 
+.fa-angrycreative {
+    color: #563d7c;
+}
+
+.fa-bitbucket {
+    color: #2163af;
+}
+
+.fa-angellist, .fa-angrycreative, .fa-bitbucket {
+    font-size: 4em;
+    margin: 1rem;
+}
 
 
 
