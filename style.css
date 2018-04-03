@@ -58,6 +58,10 @@ html, body {
     border-radius: 0;
 }
 
+.padding {
+    padding-bottom: 2rem;
+}
+
 
 
 /*---Media Queries --*/
