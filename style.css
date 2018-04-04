@@ -75,19 +75,19 @@ html, body {
     margin-bottom: 1rem;
 }
 
-.fa-angellist {
+.fa-map-marker {
     color: #e54d26;
 }
 
-.fa-angrycreative {
+.fa-handshake {
     color: #563d7c;
 }
 
-.fa-bitbucket {
+.fa-graduation-cap {
     color: #2163af;
 }
 
-.fa-angellist, .fa-angrycreative, .fa-bitbucket {
+.fa-map-marker, .fa-handshake, .fa-graduation-cap {
     font-size: 4em;
     margin: 1rem;
 }
