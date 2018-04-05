@@ -11,12 +11,30 @@ html, body {
     padding: .8rem;
 }
 
+.navbar-toggler-icon {
+    background: #2991d7;
+    border-radius: 2px;
+}
+
 .navbar-nav li {
     padding-right: 20px;
 }
 
 .nav-link {
     font-size: 1.1em !important;
+}
+
+.bg-blue {
+    background-color: #183853e8;
+    box-shadow: 0px 7px 17px -4px rgba(0,0,0,0.75);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(40, 143, 211);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
 }
 
 .carousel-inner img {
@@ -34,6 +52,14 @@ html, body {
     font-size: 500%;
     text-transform: uppercase;
     text-shadow: 1px 1px 15px;
+}
+
+.hero-header {
+      color: #2892D7;
+}
+
+.hero-header-three {
+    color: #6DAEDB;
 }
 
 .carousel-caption h3 {
@@ -209,7 +235,7 @@ footer a {
 }
 
 .carousel-caption h1 {
-    font-size: 250%;
+    font-size: 200%;
 }
 
 .carousel-caption h3 {
