@@ -132,7 +132,7 @@ Source: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.ph
     margin-bottom: 1rem;
 }
 
-.fa-map-marker {
+.fa-gratipay {
     color: #e54d26;
 }
 
@@ -140,13 +140,13 @@ Source: https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.ph
     color: #563d7c;
 }
 
-.fa-graduation-cap {
+.fa-check {
     color: #2163af;
 }
 
-.fa-map-marker,
+.fa-gratipay,
 .fa-handshake,
-.fa-graduation-cap {
+.fa-check {
     font-size: 4em;
     margin: 1rem;
 }
