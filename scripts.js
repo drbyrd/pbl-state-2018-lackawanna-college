@@ -10,13 +10,13 @@ $(document).ready(function(){
     
     /* Assign empty url value to the iframe src attribute when
     modal hide, which stop the video playing */
-    $("#myModal").on('hide.bs.modal', function(){
+    $("#resumeModal").on('hide.bs.modal', function(){
         $("#cartoonVideo").attr('src', '');
     });
     
     /* Assign the initially stored url back to the iframe src
     attribute when modal is displayed again */
-    $("#myModal").on('show.bs.modal', function(){
+    $("#resumeModal").on('show.bs.modal', function(){
         $("#cartoonVideo").attr('src', url);
     });
 });
@@ -28,13 +28,13 @@ $(document).ready(function(){
     
     /* Assign empty url value to the iframe src attribute when
     modal hide, which stop the video playing */
-    $("#myModal2").on('hide.bs.modal', function(){
+    $("#applicationModal").on('hide.bs.modal', function(){
         $("#cartoonVideo2").attr('src', '');
     });
     
     /* Assign the initially stored url back to the iframe src
     attribute when modal is displayed again */
-    $("#myModal2").on('show.bs.modal', function(){
+    $("#applicationModal").on('show.bs.modal', function(){
         $("#cartoonVideo2").attr('src', url);
     });
 });
@@ -46,13 +46,13 @@ $(document).ready(function(){
     
     /* Assign empty url value to the iframe src attribute when
     modal hide, which stop the video playing */
-    $("#myModal3").on('hide.bs.modal', function(){
+    $("#interviewModal").on('hide.bs.modal', function(){
         $("#cartoonVideo3").attr('src', '');
     });
     
     /* Assign the initially stored url back to the iframe src
     attribute when modal is displayed again */
-    $("#myModal3").on('show.bs.modal', function(){
+    $("#interviewModal").on('show.bs.modal', function(){
         $("#cartoonVideo3").attr('src', url);
     });
 });
